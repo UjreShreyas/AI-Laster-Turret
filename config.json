@@ -1,0 +1,25 @@
+{
+  "serial_port": "COM4",
+  "baud_rate": 115200,
+  "camera_index": 0,
+  "frame_width": 1280,
+  "frame_height": 720,
+  "model_path": "yolov8n.pt",
+  "target_class": "person",
+  "confidence_threshold": 0.45,
+  "theme": "Sakura Blossom",
+  "calibration_points": [
+    {"name": "Top-Left",     "screen_x": 0.1,  "screen_y": 0.1},
+    {"name": "Top-Right",    "screen_x": 0.9,  "screen_y": 0.1},
+    {"name": "Bottom-Right", "screen_x": 0.9,  "screen_y": 0.9},
+    {"name": "Bottom-Left",  "screen_x": 0.1,  "screen_y": 0.9},
+    {"name": "Center",       "screen_x": 0.5,  "screen_y": 0.5}
+  ],
+  "smoothing": 0.8,
+  "joy_speed": 2.0,
+  "joy_deadzone": 0.1,
+  "pan_pin": 18,
+  "tilt_pin": 19,
+  "laser_pin": 5,
+  "button_pin": 4
+}
